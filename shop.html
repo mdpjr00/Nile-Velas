@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Nile Velas</title>
+    <link rel="icon" href="lib/img/favicon.gif" type="image/gif" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+
+    <!-- Stylesheets -->
+
+        <!-- Materialize -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <!-- Document Stylesheet -->
+        <link rel="stylesheet" href="lib/css/style.css">
+        <link rel="stylesheet" href="lib/css/shopStyle.css">
+
+</head>
+
+<body>
+
+    <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo center"><img src="lib/img/logo_black.png" id="logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    <div id="shopContainer">
+
+      <div id='collection-component-1589868293231'></div>
+      <script type="text/javascript">
+      /*<![CDATA[*/
+      (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+          if (window.ShopifyBuy.UI) {
+            ShopifyBuyInit();
+          } else {
+            loadScript();
+          }
+        } else {
+          loadScript();
+        }
+        function loadScript() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = scriptURL;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+          script.onload = ShopifyBuyInit;
+        }
+        function ShopifyBuyInit() {
+          var client = ShopifyBuy.buildClient({
+            domain: 'nile-velas-mx.myshopify.com',
+            storefrontAccessToken: '71d48f18659e92579e9d4fd33088fcdc',
+          });
+          ShopifyBuy.UI.onReady(client).then(function (ui) {
+            ui.createComponent('collection', {
+              id: '163033645103',
+              node: document.getElementById('collection-component-1589868293231'),
+              moneyFormat: '%24%20%7B%7Bamount%7D%7D',
+              options: {
+                "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px",
+          "width": "calc(33.33333% - 30px)"
+        }
+      },
+            "title": {
+              "font-family": "Jost, sans-serif",
+              "font-weight": "normal",
+              "font-size": "15px"
+            },
+            "button": {
+                  "font-family": "Jost, sans-serif",
+                  "font-size": "14px",
+                  "line-height": "36px",
+                  "height": "36px",
+                  "padding": "0 16px",
+                  "border-radius" : "2px",
+                  "text-transform" : "uppercase",
+                  "outline" : "0",
+                  "letter-spacing" : ".5px",
+                  ":hover": {
+                    "background-color": "#484848"
+                  },
+                  "background-color": "#424242",
+                  ":focus": {
+                    "background-color": "#444444"
+              },
+              "border-radius": "0px",
+              "padding-left": "27px",
+              "padding-right": "27px"
+            },
+            "quantityInput": {
+              "font-size": "14px",
+              "padding-top": "15px",
+              "padding-bottom": "15px"
+            },
+            "price": {
+              "font-family": "Jost, sans-serif"
+            },
+            "compareAt": {
+              "font-family": "Jost, sans-serif"
+            },
+            "unitPrice": {
+              "font-family": "Jost, sans-serif"
+            }
+          },
+          "buttonDestination": "modal",
+          "contents": {
+            "options": false
+          },
+          "text": {
+            "button": "View product"
+          }
+        },
+        "productSet": {
+          "styles": {
+            "products": {
+              "@media (min-width: 601px)": {
+                "margin-left": "-20px"
+              }
+            }
+          }
+        },
+        "modalProduct": {
+          "contents": {
+            "img": false,
+            "imgWithCarousel": true,
+            "button": false,
+            "buttonWithQuantity": true
+          },
+          "styles": {
+            "product": {
+              "@media (min-width: 601px)": {
+                "max-width": "100%",
+                "margin-left": "0px",
+                "margin-bottom": "0px"
+              }
+            },
+            "button": {
+                  "font-family": "Jost, sans-serif",
+                  "font-size": "14px",
+                  "line-height": "36px",
+                  "height": "36px",
+                  "padding": "0 16px",
+                  "border-radius" : "2px",
+                  "text-transform" : "uppercase",
+                  "outline" : "0",
+                  "letter-spacing" : ".5px",
+                  ":hover": {
+                    "background-color": "#484848"
+                  },
+                  "background-color": "#424242",
+                  ":focus": {
+                    "background-color": "#444444"
+              },
+              "border-radius": "0px",
+              "padding-left": "27px",
+              "padding-right": "27px"
+            },
+            "quantityInput": {
+              "font-size": "14px",
+              "padding-top": "15px",
+              "padding-bottom": "15px",
+              "height" : "36px"
+            }
+          },
+          "text": {
+            "button": "ADD TO CART"
+          }
+        },
+        "cart": {
+          "styles": {
+            "button": {
+              "font-family": "Jost, sans-serif",
+              "font-size": "14px",
+              "padding-top": "15px",
+              "padding-bottom": "15px",
+              ":hover": {
+                "background-color": "#b3b3b3"
+              },
+              "background-color": "#c7c7c7",
+              ":focus": {
+                "background-color": "#b3b3b3"
+              },
+              "border-radius": "0px"
+            }
+          },
+          "text": {
+            "total": "Subtotal",
+            "button": "Checkout"
+          },
+          "popup": false
+        },
+        "toggle": {
+          "styles": {
+            "toggle": {
+              "font-family": "Jost, sans-serif",
+              "background-color": "#c7c7c7",
+              ":hover": {
+                "background-color": "#b3b3b3"
+              },
+              ":focus": {
+                "background-color": "#b3b3b3"
+              }
+            },
+            "count": {
+              "font-size": "14px"
+            }
+          }
+        }
+      },
+            });
+          });
+        }
+      })();
+      /*]]>*/
+      </script>
+    </div>
+
+    <div class="footer hide-on-med-and-down">
+      <div class="row">
+          <div class="col s4">
+            <h6>Company:</h6>
+                <ul>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+              </div>
+            <div class="col s4">
+                <h6>Customer Service:</h6>
+                <ul>
+                    <li><a href="shipping.html">Shipping + Returns</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            <div class="col s4">
+                <ul id="footerSocial">
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                </ul>
+            </div>
+      </div>
+    </div>
+   
+
+<!-- Scripts -->
+
+        <!-- Materialize -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+   <script type="text/javascript" src="lib/js/sidenav.js"></script>
+       
+
+</body>
+</html>

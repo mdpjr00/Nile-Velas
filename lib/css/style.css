@@ -1,0 +1,114 @@
+body,
+html {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f1f1f1;
+    background-position: center;
+    background-size: cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    font-family: 'Jost', sans-serif;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+nav li {
+    font-size: 0.4em;
+    letter-spacing: 1px;
+}
+
+.nav-wrapper a:hover {
+    background-color: transparent;
+    color: black;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.sidenav {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px 15px;
+}
+
+.sidenav li {
+    text-align: center;
+}
+
+#sidenavHeadImg {
+    margin: 0 auto;
+    display: block;
+}
+
+#logo {
+    width: 150px;
+    padding-top: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#logo:hover {
+    -webkit-filter: invert(100%);
+}
+
+.homepage {
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: #efefef;
+    height: 158px;
+    padding: 15px 55px;
+    margin: 0 0;
+    position: relative;
+    bottom: 0;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#footerSocial li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.fa-instagram, .fa-facebook-f {
+    font-size: 20px;
+}
+
+#shopContainer {
+    padding: 35px;
+}
+
+#aboutContainer, #contactContainer {
+    text-align: center;
+    padding: 30px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 55%;
+}
+
+#privacyContainer {
+    text-align: left;
+    padding: 30px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 55%;
+}
