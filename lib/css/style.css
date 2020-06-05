@@ -81,13 +81,8 @@ nav li {
     text-decoration: none;
 }
 
-#footerSocial li {
+.footer li {
     display: inline;
-    padding-right: 10px;
-}
-
-.fa-instagram, .fa-facebook-f {
-    font-size: 20px;
 }
 
 #shopContainer {
