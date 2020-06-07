@@ -78,6 +78,9 @@ nav li {
 .footer a {
     color: black;
     text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 1px;
 }
 
 .footer a:hover {
